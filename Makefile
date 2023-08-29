@@ -1,6 +1,6 @@
 MODULE_TOPDIR = ../..
 
-PGM = r.in.wcs
+PGM = r.wcs
 
 # note: to deactivate a module, just place a file "DEPRECATED" into the subdir
 ALL_SUBDIRS := ${sort ${dir ${wildcard */.}}}
